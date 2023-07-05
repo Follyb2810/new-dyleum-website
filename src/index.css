@@ -1,13 +1,149 @@
-body {
+:root {
+  --bg: #101419;
+  --bgBlue:#C1CDE3;
+  --bgRed:#D4DA15;
+  --textColor:#B7D4FF;
+  --textColor1:#03FBFC;
+  --textColor2:#0066FF;
+}
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--bg);
+  color: var(--textColor);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg {
+  color: var(--textColor);
+  background-color: var(--bg);
+}
+.bgBlue{
+  background-color: var(--bgBlue);
+}
+.bgRed{
+  background-color: var(--bgRed);
+}
+.bgGreen{
+  background-color: var(--textColor1);
+}
+.bgCard{
+  background-color:var(--bg);
+  color:#B7D4FF;
+  border: 1px solid var(--textColor1);
+}
+.textColor {
+  color:var(--textColor);
+}
+.textColor1 {
+  color:var(--textColor1);
+}
+.textColor2 {
+  color:var(--textColor2);
+}
+.nav-link:hover {
+  color:'white';
+}
+.social-container {
+  padding: 5px;
+}
+.social-buttons {
+color: white;
+}
+.herobg{
+  background-image:url('./component/images/Background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card{
+  height:270px
+}
+.road {
+  position: relative;
+  height: 10px;
+  padding: 5px;
+ 
+}
+
+.road::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid blue;
+}
+.road1 {
+  position: relative;
+  height: 10px;
+  padding: 5px;
+ 
+}
+
+.road1::before {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid blue;
+}
+.line {
+  position: relative;
+  height: 200px;
+  width: 5px;
+  text-align: center;
+}
+
+.circle {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+.circle1 {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+
+
+
+@media (max-width: 480px) {
+  .card{
+   height: 100px;
+  } 
+}
+@media (max-width: 576px) {
+  .card{
+    height: 100px;
+  } 
+}
+
+@media (max-width: 768px) {
+  .card{
+    height: 100px;
+  } 
+}
+@media (max-width: 992px) {
+  .card{
+    height: 300px;
+  } 
 }
