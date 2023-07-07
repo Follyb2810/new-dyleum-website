@@ -39,7 +39,7 @@ const Header = () => {
           <a class="nav-link textColor" href='#road'>Road Map</a>
         </li>
       </ul>
-      <button class="btn btn-primary ms-md-auto d-block btn-lg px-4" type="submit">Button</button>
+      <button class="btn btn-primary ms-md-auto d-block btn-lg px-4" type="submit">Discover Productg</button>
     </div>
   </div>
 </nav>  )
