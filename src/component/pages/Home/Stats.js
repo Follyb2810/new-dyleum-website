@@ -3,8 +3,9 @@ import {StatsData} from '../../Data'
 
 const Stats = () => {
   return (
+    <section className='product'>
     <section className='container'>
-      <div className='row text-center p-5'>
+      <div className='row text-center p-5 '>
           {
             StatsData.map((stat,index)=>(
                 <div className='col-6 col-md-3' key={index}>
@@ -14,6 +15,7 @@ const Stats = () => {
             ))
           }
       </div>
+    </section>
     </section>
   )
 }

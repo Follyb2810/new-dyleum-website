@@ -209,4 +209,22 @@ const RoadMapData =[
         task:["Ideation Stage","Team Building","Whitepaper V1", "Social Media Creation", "Website Launch","Pitch Deck" ]
      },
 ]
-export {socialIcon,CompanyData,CompanySupport,StatsData,ProductCardData,FeatureData,FagData,RoadMapData}
+
+const PartnerData =[
+    {
+      id:1,
+      img:Img.part,
+      name:'Core Guard'
+    },
+    {
+      id:2,
+      img:Img.part2,
+      name:'Zebec Protocol'
+    },
+    {
+      id:3,
+      img:Img.part3,
+      name:'Nautilius Chain'
+    },
+]
+export {socialIcon,CompanyData,CompanySupport,StatsData,ProductCardData,FeatureData,FagData,RoadMapData,PartnerData}

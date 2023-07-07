@@ -2,9 +2,11 @@
   --bg: #101419;
   --bgBlue:#C1CDE3;
   --bgRed:#D4DA15;
+  --bgGen:#1c2024;
   --textColor:#B7D4FF;
   --textColor1:#03FBFC;
   --textColor2:#0066FF;
+  --footerColor:#1c2024;
 }
 *{
   margin: 0;
@@ -38,14 +40,23 @@ body {
 .textColor {
   color:var(--textColor);
 }
+.textColor:hover{
+  color: white;
+}
 .textColor1 {
   color:var(--textColor1);
 }
 .textColor2 {
   color:var(--textColor2);
 }
+.fagBorder{
+  border: 1px solid var(--textColor1);
+}
 .nav-link:hover {
   color:'white';
+}
+.product {
+ background-color: var(--bgGen);
 }
 .social-container {
   padding: 5px;
@@ -124,8 +135,10 @@ color: white;
 }
 
 
-
-
+/* !footer */
+.footer{
+  background-color: var(--footerColor);
+}
 @media (max-width: 480px) {
   .card{
    height: 100px;

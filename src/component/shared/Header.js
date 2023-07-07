@@ -21,12 +21,12 @@ const Header = () => {
         <a class="nav-link dropdown-toggle textColor"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Product
         </a>
-        <ul class="dropdown-menu textColor" >
-          <li><a class="dropdown-item" href="#product">Dex</a></li>
-          <li><a class="dropdown-item" href="#product">AI P2P Exchange</a></li>
-          <li><a class="dropdown-item" href="#product">NFT</a></li>
-          <li><a class="dropdown-item" href="#product">Dapp Evaluation Program</a></li>
-          <li><a class="dropdown-item" href="#product">Defo Protocol</a></li>
+        <ul class="dropdown-menu p-2 textColor2" style={{backgroundColor:'#1c2024'}}>
+          <li><a class="dropdown-item textColor2" href="#product">Dex</a></li>
+          <li><a class="dropdown-item textColor2" href="#product">AI P2P Exchange</a></li>
+          <li><a class="dropdown-item textColor2" href="#product">NFT</a></li>
+          <li><a class="dropdown-item textColor2" href="#product">Dapp Evaluation Program</a></li>
+          <li><a class="dropdown-item textColor2" href="#product">Defi Protocol</a></li>
         </ul>
       </li>
         <li class="nav-item">
