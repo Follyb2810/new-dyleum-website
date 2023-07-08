@@ -71,11 +71,11 @@ color: white;
 }
 /* !product card */
 .card{
-  height:230px
+  height:270px
 }
 .card p{
   width: 100%;
-  height: 90px;
+  height: 110px;
 }
 /* ! roadmap */
 .road {
@@ -159,20 +159,20 @@ color: white;
 }
 @media (max-width: 992px) {
   .card{
-    height: 260px;
+    height: 320px;
   } 
   .card p{
     width: 100%;
-    height: 130px;
+    height: 160px;
   }
 }
 @media (max-width: 768px) {
   .card{
-    height: 280px;
+    height: 290px;
   } 
   .card p{
     width: 100%;
-    height: 140px;
+    height: 135px;
   }
 }
 @media (max-width: 576px) {
@@ -186,7 +186,7 @@ color: white;
 }
 @media (max-width: 480px) {
   .card{
-   height: 220px;
+   height: 240px;
   } 
   .card p{
     width: 100%;
