@@ -1,13 +1,18 @@
 import React from 'react'
+import {AboutData} from '../../Data'
 
 const About = () => {
   return (
     <section className='container' id='about'>
-          <h3 className='text-center fs-6 textColor1 py-5'>WHo we are</h3>
-          <h3 className='text-center fs-4 fw-semibold text-white'>Get to know  us</h3>
-          <p className='text-center  text-white fs-6 px-5'>Dyleum is a leading AI-powered decentralized exchange that empowers users to trade cryptocurrencies securely and efficiently. 
-          With a focus on user control, Web3 simplicity, fast transactions, intelligent order matching, and trust through escrow smart contracts
-          Enjoy seamless trading experience.</p>
+          {
+            AboutData.map((data,index)=>(
+              <div key={index}>
+              <h3 className='text-center fs-6 textColor1 py-3'>{data.title}</h3>
+              <h3 className='text-center fs-3 fw-semibold text-white'>{data.subt}</h3>
+              <p className='text-center  text-white fs-6 px-0 px-md-3'>{data.p}</p>
+              </div>
+            ))
+          }
        
     </section>
   )

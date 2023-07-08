@@ -36,10 +36,10 @@ const Header = () => {
           <a class="nav-link textColor" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link textColor" href='#road'>Road Map</a>
+          <a class="nav-link textColor text-nowrap" href='#road'>Road Map</a>
         </li>
       </ul>
-      <button class="btn btn-primary ms-md-auto d-block btn-lg px-4" type="submit">Discover Productg</button>
+      <button class="btn btn-primary ms-md-auto d-block btn-lg px-2 px-md-4 text-nowrap" type="submit">Product</button>
     </div>
   </div>
 </nav>  )

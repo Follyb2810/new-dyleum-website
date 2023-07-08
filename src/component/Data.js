@@ -227,4 +227,13 @@ const PartnerData =[
       name:'Nautilius Chain'
     },
 ]
-export {socialIcon,CompanyData,CompanySupport,StatsData,ProductCardData,FeatureData,FagData,RoadMapData,PartnerData}
+
+const AboutData =[
+  {
+    title:'WHo we are',
+    subt:'Get to know  us',
+    p:'Dyleum is a leading AI-powered decentralized exchange that empowers users to trade cryptocurrencies securely and efficiently.With a focus on user control, Web3 simplicity, fast transactions, intelligent order matching, and trust through escrow smart contracts Enjoy seamless trading experience.'
+
+  }
+]
+export {socialIcon,CompanyData,CompanySupport,StatsData,ProductCardData,FeatureData,FagData,RoadMapData,PartnerData,AboutData}

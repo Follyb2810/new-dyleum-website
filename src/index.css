@@ -69,9 +69,15 @@ color: white;
   background-position: center;
   background-repeat: no-repeat;
 }
+/* !product card */
 .card{
-  height:270px
+  height:230px
 }
+.card p{
+  width: 100%;
+  height: 90px;
+}
+/* ! roadmap */
 .road {
   position: relative;
   height: 10px;
@@ -121,7 +127,7 @@ color: white;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: red;
+
 }
 .circle1 {
   position: absolute;
@@ -131,32 +137,60 @@ color: white;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: red;
+ 
 }
 
+/* !feature */
+.feature_num {
+  border: 1px solid white;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  
+}
 
 /* !footer */
 .footer{
   background-color: var(--footerColor);
 }
-@media (max-width: 480px) {
+@media (max-width: 992px) {
   .card{
-   height: 100px;
+    height: 260px;
   } 
+  .card p{
+    width: 100%;
+    height: 130px;
+  }
+}
+@media (max-width: 768px) {
+  .card{
+    height: 280px;
+  } 
+  .card p{
+    width: 100%;
+    height: 140px;
+  }
 }
 @media (max-width: 576px) {
   .card{
-    height: 100px;
+    height: 210px;
   } 
+  .card p{
+    width: 100%;
+    height: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .card{
+   height: 220px;
+  } 
+  .card p{
+    width: 100%;
+    height: 80px;
+  }
 }
 
-@media (max-width: 768px) {
-  .card{
-    height: 100px;
-  } 
-}
-@media (max-width: 992px) {
-  .card{
-    height: 300px;
-  } 
-}
