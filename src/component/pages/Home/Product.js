@@ -4,8 +4,8 @@ import ProductCard from './ProductCard'
 const Product = () => {
   return (
     <section className='container' id='product'>
-    <h6 className='text-center py-5'>OUR PRODUCT</h6>   
-    <h2 className='text-center textColor1'>Browse Through Our Array Of Products</h2>
+    <h6 className='text-center  pt-5 pb-2'>Our product</h6>   
+    <h2 className='text-center text-white'>Browse Through Our Array Of Products</h2>
        <div className='row'>
           {
             ProductCardData.map((product, index) =>(

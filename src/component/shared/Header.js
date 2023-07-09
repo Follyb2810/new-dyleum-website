@@ -7,7 +7,7 @@ const Header = () => {
     <nav class="navbar navbar-expand-md  bg sticky-top">
   <div class="container">
      <Link to="/">
-       <img src={require('../images/Dyleum.svg').default} width='100px' height='45px' alt=''/>
+       <img src={require('../images/Dyleum.svg').default}  className='logo' alt=''/>
      </Link>
     <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@ const Header = () => {
         </ul>
       </li>
         <li class="nav-item">
-          <a class="nav-link textColor" href="#">Governance</a>
+          <a class="nav-link textColor" href="#governamce">Governance</a>
         </li>
         <li class="nav-item">
           <a class="nav-link textColor" href="#about">About</a>
@@ -39,7 +39,7 @@ const Header = () => {
           <a class="nav-link textColor text-nowrap" href='#road'>Road Map</a>
         </li>
       </ul>
-      <button class="btn btn-primary ms-md-auto d-block btn-lg px-2 px-md-4 text-nowrap" type="submit">Product</button>
+      <button class="btn btn-primary ms-md-auto d-block btn-lg px-lg-3  px-md-1 px-2 text-nowrap" type="submit">Discover Product</button>
     </div>
   </div>
 </nav>  )

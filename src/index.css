@@ -7,6 +7,7 @@
   --textColor1:#03FBFC;
   --textColor2:#0066FF;
   --footerColor:#1c2024;
+  
 }
 *{
   margin: 0;
@@ -51,6 +52,10 @@ body {
 }
 .fagBorder{
   border: 1px solid var(--textColor1);
+}
+.logo{
+  width:100px;
+   height:45px;
 }
 .nav-link:hover {
   color:'white';
@@ -158,6 +163,10 @@ color: white;
   background-color: var(--footerColor);
 }
 @media (max-width: 992px) {
+  .logo{
+    width:70px;
+     height:45px;
+  }
   .card{
     height: 320px;
   } 
@@ -167,6 +176,10 @@ color: white;
   }
 }
 @media (max-width: 768px) {
+  .logo{
+    width:100px;
+     height:45px;
+  }
   .card{
     height: 290px;
   } 
