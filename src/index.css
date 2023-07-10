@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;900&display=swap');
 :root {
   --bg: #101419;
   --bgBlue:#C1CDE3;
@@ -7,7 +8,20 @@
   --textColor1:#03FBFC;
   --textColor2:#0066FF;
   --footerColor:#1c2024;
-  
+  --primaryA:#E5EFFF;
+  --primaryB:#0045AD;
+  --primaryC:#0066FF;
+  --dark:#363A3E;
+  --darkA:#34373B;
+  --darkB:#313539;
+  --darkC:#2D3035;
+  --darkD:#2A2E32;
+  --darkE:#26292E;
+  --darkF:#23272B;
+  --darkG:#212429;
+  --darkH:#101419;
+  --darkI:#1C2024;
+
 }
 *{
   margin: 0;
@@ -18,6 +32,7 @@
 body {
   background-color: var(--bg);
   color: var(--textColor);
+  font-family: 'Inter', sans-serif;
 }
 
 .bg {
@@ -26,6 +41,16 @@ body {
 }
 .bgBlue{
   background-color: var(--bgBlue);
+}
+.primaryB{
+  background-color: var(--primaryB);
+  color: white;
+}
+.primaryB:hover{
+  background-color: var(--primaryC);
+}
+.primaryC{
+  color: var(--primaryC);
 }
 .bgRed{
   background-color: var(--bgRed);
@@ -61,7 +86,7 @@ body {
   color:'white';
 }
 .product {
- background-color: var(--bgGen);
+ background-color: var(--darkI);
 }
 .social-container {
   padding: 5px;
@@ -160,7 +185,7 @@ color: white;
 
 /* !footer */
 .footer{
-  background-color: var(--footerColor);
+  background-color: var(--darkI);
 }
 @media (max-width: 992px) {
   .logo{

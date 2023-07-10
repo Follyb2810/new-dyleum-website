@@ -9,7 +9,7 @@ const ProductCard = ({title,para,btnTxt,img}) => {
         <div class="card-body p-0">
             <h5 class="card-title textColor1 fs-6 py-2"> {title}</h5>
             <p class="card-text">{para}</p>
-            <Link  class="btn btn-primary">{btnTxt}</Link>
+            <Link  class="btn primaryB">{btnTxt}</Link>
         </div>
         </div>
   )

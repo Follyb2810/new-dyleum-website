@@ -8,7 +8,7 @@ const Hero = () => {
           <div className='col text-center py-5'>
           <h2 className='text-center fs-1 text-white'>AI powered <span className='textColor1'>decentralized</span> exchange</h2>
           <p className='text-center fs-5'>Empowering web3 with AI powered products</p>
-          <button className='btn btn-primary mx-auto'>Discover Our Product</button>
+          <button className='btn primaryB p-2 mx-auto'>Discover Our Product</button>
           </div> 
         </div>
       </div>
