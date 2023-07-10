@@ -7,6 +7,7 @@ import nft from './nft.svg'
 import part from './part1.svg'
 import part2 from './part2.svg'
 import part3 from './part3.svg'
+import part4 from './part4.svg'
    export {
-    dap,defi,dex,leum,p2p,nft,part,part3,part2,
+    dap,defi,dex,leum,p2p,nft,part,part3,part2,part4
    }

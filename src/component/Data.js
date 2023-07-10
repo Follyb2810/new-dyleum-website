@@ -226,6 +226,11 @@ const PartnerData =[
       img:Img.part3,
       name:'Nautilius Chain'
     },
+    {
+      id:3,
+      img:Img.part4,
+      name:'Galador'
+    },
 ]
 
 const AboutData =[
