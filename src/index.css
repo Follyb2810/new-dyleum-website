@@ -119,7 +119,7 @@ color: white;
 }
 /* !product card */
 .card{
-  height:270px
+  height:280px
 }
 .card p{
   width: 100%;
@@ -215,7 +215,7 @@ color: white;
   } 
   .card p{
     width: 100%;
-    height: 100px;
+    height: 110px;
   }
  
 }
@@ -237,7 +237,7 @@ color: white;
   } 
   .card p{
     width: 100%;
-    height: 85px;
+    height: 80px;
   }
 }
 @media (max-width: 576px) {
