@@ -13,7 +13,7 @@ const Header = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse " id="navbarNav">
-      <ul class="navbar-nav ms-auto fs-5 ">
+      <ul class="navbar-nav ms-auto fs-6 ">
         <li class="nav-item ">
           <a class="nav-link textColor" aria-current="page" href="#feature">Features</a>
         </li>
@@ -39,7 +39,7 @@ const Header = () => {
           <a class="nav-link textColor text-nowrap" href='#road'>Road Map</a>
         </li>
       </ul>
-      <button class="btn primaryB ms-md-auto d-block px-2 text-nowrap" type="submit">Discover Product</button>
+      <button class="btn primaryB ms-md-auto d-block px-3 py-2 fs-7  text-nowrap" type="submit">Discover Product</button>
     </div>
   </div>
 </nav>  )
