@@ -7,6 +7,7 @@ import Fags from './Fags'
 import Roadmap from './Roadmap'
 import About from './About'
 import Partner from './Partner'
+import Road from './Road'
 
 const Index = () => {
   return (
@@ -16,7 +17,7 @@ const Index = () => {
       <Product/>
       <Feature/>
       <Fags/>
-      <Roadmap/>
+      <Road/>
       <About/>
       <Partner/>
     </>

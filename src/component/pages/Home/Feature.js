@@ -4,8 +4,8 @@ import {FeatureData} from '../../Data'
 const Feature = () => {
   return (
     <section className='container' id='feature'>
-    <h6 className='text-center textColor1 pt-5 pb-2'>WHY DYLEUM</h6>
-    <h2 className='text-center text-white'>Our solution</h2>
+    <h6 className='text-center textColor1 fs-14 pt-5 pb-2'>WHY DYLEUM</h6>
+    <h2 className='text-center text-white subtitle'>Our solution</h2>
     <div className='row'>
     {
         FeatureData.map((feature,index)=>(

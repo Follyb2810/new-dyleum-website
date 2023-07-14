@@ -4,8 +4,8 @@ import {RoadMapData} from '../../Data'
 const Roadmap = () => {
   return (
     <section className='container' id='road'>
-       <h2 className='text-center textColor1 py-5'>OUR Roadmap</h2>
-       <h2 className='text-center text-white'> Dyleum's roadmap to revolutionize cryptocurrency</h2>
+       <h2 className='text-center textColor1 fs-14 pt-5 pb-2'>OUR ROADMAP</h2>
+       <h2 className='text-center text-white subtitle'> Dyleum's roadmap to revolutionize cryptocurrency</h2>
        <div className='row py-3'>
           {
                 RoadMapData.map((road,index)=>(

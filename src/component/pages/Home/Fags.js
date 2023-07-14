@@ -4,8 +4,8 @@ import { FagData } from '../../Data';
 const Fags = () => {
   return (
     <section className='container'>
-      <h6 className='text-center text-white textColor1 py-5'>FAQ</h6>
-      <h2 className='text-center text-white'>Commonly asked questions about Dyleum</h2>
+      <h6 className='text-center textColor1 fs-14 pt-5 pb-2'>FAQ</h6>
+      <h2 className='text-center text-white subtitle'>Commonly asked questions about Dyleum</h2>
       <div className="accordion accordion-flush py-3" id="accordionFlushExample" >
         {FagData.map((question, index) => (
           <div className="accordion-item fagBorder" key={index} style={{backgroundColor:'black',color:'white'}}>

@@ -7,8 +7,8 @@ const About = () => {
           {
             AboutData.map((data,index)=>(
               <div key={index}>
-              <h3 className='text-center fs-6 textColor1 py-3'>{data.title}</h3>
-              <h3 className='text-center fs-3 fw-semibold text-white'>{data.subt}</h3>
+              <h3 className='text-center fs-14 textColor1 pt-5 pb-2'>{data.title}</h3>
+              <h3 className='text-center text-white subtitle'>{data.subt}</h3>
               <p className='text-center  text-white fs-6 px-0 px-md-3'>{data.p}</p>
               </div>
             ))

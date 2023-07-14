@@ -235,7 +235,7 @@ const PartnerData =[
 
 const AboutData =[
   {
-    title:'WHo we are',
+    title:'WHO WE ARE',
     subt:'Get to know  us',
     p:'Dyleum is a leading AI-powered decentralized exchange that empowers users to trade cryptocurrencies securely and efficiently.With a focus on user control, Web3 simplicity, fast transactions, intelligent order matching, and trust through escrow smart contracts Enjoy seamless trading experience.'
 
