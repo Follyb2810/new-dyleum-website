@@ -202,11 +202,11 @@ const RoadMapData =[
      },
      {
         phase:'Phase 2',
-        task:["Ideation Stage","Team Building","Whitepaper V1", "Social Media Creation", "Website Launch","Pitch Deck" ]
+        task:["Smart Contract Deployment","Community Campaigns","Collaborations"," Community Building","DEX V1 Launch","Testnet on Nautilus","Mainnet on Nautilus" ]
      },
      {
         phase:'Phase 3',
-        task:["Ideation Stage","Team Building","Whitepaper V1", "Social Media Creation", "Website Launch","Pitch Deck" ]
+        task:["Marketing","Presale and Fundraising","Staking and Farming Live","Marketing","P2P Design","P2P Development","Beta Launch" ]
      },
 ]
 
@@ -241,4 +241,27 @@ const AboutData =[
 
   }
 ]
-export {socialIcon,CompanyData,CompanySupport,StatsData,ProductCardData,FeatureData,FagData,RoadMapData,PartnerData,AboutData}
+
+const Phase1 = [
+  {
+    phase:'Phase 1',
+    task:["Ideation Stage","Team Building","Whitepaper V1", "Social Media Creation", "Website Launch","Pitch Deck" ]
+ },
+]
+const Phase2 = [
+  {
+    phase:'Phase 2',
+    task:["Smart Contract Deployment","Community Campaigns","Collaborations"," Community Building","DEX V1 Launch","Testnet on Nautilus","Mainnet on Nautilus" ]
+ }
+]
+const Phase3 = [
+  {
+    phase:'Phase 3',
+    task:["Marketing","Presale and Fundraising","Staking and Farming Live","Marketing","P2P Design","P2P Development","Beta Launch" ]
+ },
+]
+export {socialIcon,CompanyData,CompanySupport,
+  StatsData,ProductCardData,FeatureData,FagData,
+  RoadMapData,PartnerData,AboutData,
+  Phase1,Phase2,Phase3
+}
