@@ -9,6 +9,8 @@ import About from './About'
 import Partner from './Partner'
 import Road from './Road'
 import Rell from './Rell'
+import Roads from './Roads'
+import Roadss from './Roadss'
 
 const Index = () => {
   return (
@@ -18,7 +20,7 @@ const Index = () => {
       <Product/>
       <Feature/>
       <Fags/>
-       <Rell/>
+       <Roads/>
       <About/>
       <Partner/>
     </>

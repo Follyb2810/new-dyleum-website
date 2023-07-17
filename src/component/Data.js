@@ -231,6 +231,11 @@ const PartnerData =[
       img:Img.part4,
       name:'Galador'
     },
+    {
+      id:3,
+      img:Img.Shield,
+      name:'Shield Protocol'
+    },
 ]
 
 const AboutData =[

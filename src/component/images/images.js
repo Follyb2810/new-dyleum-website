@@ -11,7 +11,8 @@ import part4 from './part4.svg'
 import Ham from './ham.svg'
 import Cancel from './cancel.svg'
 import Dyleum from './Dyleum.svg'
+import Shield from './shield.svg'
 
    export {
-    dap,defi,dex,leum,p2p,nft,part,part3,part2,part4,Ham,Cancel,Dyleum
+    dap,defi,dex,leum,p2p,nft,part,part3,part2,part4,Ham,Cancel,Dyleum,Shield
    }
