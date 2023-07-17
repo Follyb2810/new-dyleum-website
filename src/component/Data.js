@@ -4,22 +4,22 @@ const socialIcon =[
     {
       id:1,
       icons:<FaTwitterSquare className='social-buttons'/>,
-      path:'/'
+      path:'https://twitter.com/dyleum_com'
     },
     {
       id:2,
       icons:<FaDiscord className='social-buttons'/>,
-      path:'/'
+      path:'https://discord.com/invite/4fZPgqxdpE'
     },
     {
       id:3,
       icons:<FaTelegram className='social-buttons'/>,
-      path:'/'
+      path:'https://t.me/dyleum'
     },
     {
       id:4,
       icons:<FaMedium className='social-buttons'/>,
-      path:'/'
+      path:'https://dyleum.medium.com/'
     },
    ]
 const CompanyData =[

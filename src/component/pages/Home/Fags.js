@@ -8,16 +8,16 @@ const Fags = () => {
       <h2 className='text-center text-white subtitle'>Commonly asked questions about Dyleum</h2>
       <div className="accordion accordion-flush py-3" id="accordionFlushExample" >
         {FagData.map((question, index) => (
-          <div className="accordion-item fagBorder" key={index} style={{backgroundColor:'black',color:'white'}}>
-            <h2 className="accordion-header d-flex justify-content-between" >
+          <div className="accordion-item fagBorder" key={index}>
+            <h2 className="accordion-header text-white"  style={{background:"#101419",color:'white'}}>
               <button
-                className="accordion-button collapsed d-flex justify-content-between"
+                className="accordion-button collapsed text-white fs-16 d-flex justify-content-between"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target={`#flush-collapseOne-${index}`} 
                 aria-expanded="false"
                 aria-controls={`flush-collapseOne-${index}`} 
-                style={{color:'white',backgroundColor:'#1c2024'}}
+                style={{background:"#101419"}}  
               >
                 {question.ques}
               </button>
@@ -26,8 +26,9 @@ const Fags = () => {
               id={`flush-collapseOne-${index}`} 
               className="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
+              style={{background:"#101419",color:'white'}}
             >
-              <div className="accordion-body">{question.ans}</div>
+              <div className="accordion-body fs-16">{question.ans}</div>
             </div>
           </div>
         ))}
