@@ -29,27 +29,27 @@ const CompanyData =[
             {
                 id:1,
                 name:'Product',
-                path:'/'
+                path:'#product'
               },
               {
                 id:2,
                 name:"Features",
-                path:'/'
+                path:'#feature'
               },
               {
                 id:3,
                 name:"Documentation",
-                path:'/'
+                path:'#'
               },
               {
                 id:4,
                 name:'Pitch Deck',
-                path:'/'
+                path:'#'
               },
               {
                 id:5,
                 name:'Learn',
-                path:'/'
+                path:'#'
               },
         ]
      },
@@ -62,13 +62,13 @@ const CompanySupport =[
         name:[
             {
                 id:1,
-                name:'FAGs',
-                path:'/'
+                name:'FAQs',
+                path:'#fag'
               },
               {
                 id:2,
                 name:"Contact us",
-                path:'/'
+                path:'#'
               }
         ]
      }
@@ -176,22 +176,22 @@ const FagData = [
     {
             id:22,
             ques:"Can I trade peer-to-peer on Dyleum's DEX?",
-            ans:"Using Dyleum's DEX offers several advantages, including increased security, privacy, and control over your assets. It eliminates the need for third parties, enhances liquidity through AI-powered order matching, and provides a trustless and transparent trading environment."
+            ans:"Yes, Dyleum's DEX facilitates peer-to-peer (P2P) transactions, enabling direct trading between users. This model promotes transparency, efficiency, and eliminates the reliance on centralized servers."
+    },
+    {
+            id:1,
+            ques:"How does Dyleum ensure the security of transactions?",
+            ans:"Dyleum utilizes an escrow smart contract to verify and facilitate transactions, mitigating the risk of fraud or scams. Funds are held securely in an escrow account until both parties confirm the completion of the transaction."
     },
     {
             id:1,
             ques:"What features does Dyleum's AI-powered DEX offer?",
-            ans:"Using Dyleum's DEX offers several advantages, including increased security, privacy, and control over your assets. It eliminates the need for third parties, enhances liquidity through AI-powered order matching, and provides a trustless and transparent trading environment."
-    },
-    {
-            id:1,
-            ques:"What features does Dyleum's AI-powered DEX offer?",
-            ans:"Using Dyleum's DEX offers several advantages, including increased security, privacy, and control over your assets. It eliminates the need for third parties, enhances liquidity through AI-powered order matching, and provides a trustless and transparent trading environment."
+            ans:"Dyleum's AI technology enhances the trading experience by fast transaction, providing intelligent order matching, liquidity aggregation, and efficient trade execution. Prioritizes user privacy and inclusivity also."
     },
     {
             id:1,
             ques:"Can I trade a wide range of cryptocurrencies on Dyleum's DEX?",
-            ans:'Using Dyleum\'s DEX offers several advantages, including increased security, privacy, and control over your assets. It eliminates the need for third parties, enhances liquidity through AI-powered order matching, and provides a trustless and transparent trading environment.'
+            ans:'Yes, Dyleum\'s DEX supports the trading of a diverse range of cryptocurrencies. Unlike centralized exchanges that may limit token availability, Dyleum offers inclusivity and allows for trading any compatible digital asset.'
     },
 ]
 

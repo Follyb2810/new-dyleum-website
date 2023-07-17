@@ -30,7 +30,7 @@ const Footer = () => {
                       <React.Fragment key={index}>
                         <h4 className='text-white fs-16'>{company.Compnany}</h4>
                         {company.name.map((name, index) => (
-                          <h6 key={index} className='fs-14'>{name.name}</h6>
+                          <h6 key={index} className='fs-14'><a href={name.path} style={{textDecoration:'none',color:'#B7D4FF'}}>{name.name}</a></h6>
                         ))}
                       </React.Fragment>
                     ))}
@@ -41,7 +41,7 @@ const Footer = () => {
                       <React.Fragment key={index}>
                         <h4 className='text-white fs-16'>{company.support}</h4>
                         {company.name.map((support, index) => (
-                          <h6 key={index} className='fs-14'>{support.name}</h6>
+                          <h6 key={index} className='fs-14'><a href={support.path} style={{textDecoration:'none',color:'#B7D4FF'}}>{support.name}</a></h6>
                         ))
 
                         }

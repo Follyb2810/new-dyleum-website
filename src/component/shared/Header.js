@@ -83,8 +83,8 @@ const Header = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#governamce" onClick={handleToggle} >
-                Governance
+              <a className="nav-link" href="#fag" onClick={handleToggle} >
+                FAQs
               </a>
             </li>
             <li className="nav-item">
