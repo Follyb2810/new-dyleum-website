@@ -38,11 +38,6 @@ const Header = () => {
           id="navbarNav"
         >
           <ul className="navbar-nav ms-auto fs-6 text-start text-sm-center">
-            <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#feature" onClick={handleToggle}>
-                Features
-              </a>
-            </li>
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -81,6 +76,11 @@ const Header = () => {
                   </a>
                 </li>
               </ul>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="#feature" onClick={handleToggle}>
+                Features
+              </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#fag" onClick={handleToggle} >

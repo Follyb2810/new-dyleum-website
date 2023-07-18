@@ -105,42 +105,48 @@ const ProductCardData =[
         title:'DEX',
         para:'Exchange and swap crypto easily with an intuitive and easy interface',
         btnTxt:'Discover DEX',
-        img: Img.dex
+        img: Img.dex,
+        pathToProduct:'https://testnet.dyleum.com/'
     },
     {
         id:2,
         title:'AI P2P Exchange',
         para:'Connecting decentralized P2P Exchange with AI. Fostering seamless and secure transactions',
         btnTxt:'Coming Soon',
-        img: Img.p2p
+        img: Img.p2p,
+        pathToProduct:'https://p2p.dyleum.com/'
     },
     {
         id:3,
         title:'LeumPad',
         para:'Multichain launchpad for profitable projects during presale and IDO',
         btnTxt:'Coming Soon',
-        img: Img.leum
+        img: Img.leum,
+        pathToProduct:'#'
     },
     {
         id:4,
         title:'NFTs',
         para:'Get PFP and Real Estate NFTs to customize your experience, gain priority to perks and rewards, and access to real life estate',
         btnTxt:'Coming Soon',
-        img: Img.nft
+        img: Img.nft,
+        pathToProduct:'#'
     },
     {
         id:5,
         title:'DApp Evaluation Program',
         para:'Regulators make research and publicly give information on DApps to ease user stress of project research. Use the program to make informed decisions',
         btnTxt:'Coming Soon',
-        img: Img.dap
+        img: Img.dap,
+        pathToProduct:'#'
     },
     {
         id:6,
         title:'DeFi Pool',
         para:'Earn regularly from investing with top cryptocurrencies',
         btnTxt:'Coming Soon',
-        img: Img.defi
+        img: Img.defi,
+        pathToProduct:'#'
     },
    
 ]
