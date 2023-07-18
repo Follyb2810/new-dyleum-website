@@ -1,5 +1,6 @@
 import {FaTwitterSquare,FaTelegram,FaDiscord,FaMedium} from 'react-icons/fa'
 import  * as Img from '../component/images/images'
+import file from '../component/images/file/dyleum-Pitch-deck.pdf'
 const socialIcon =[
     {
       id:1,
@@ -39,12 +40,12 @@ const CompanyData =[
               {
                 id:3,
                 name:"Documentation",
-                path:'#'
+                path:'https://dyleum.gitbook.io/'
               },
               {
                 id:4,
                 name:'Pitch Deck',
-                path:'#'
+                path:file
               },
               {
                 id:5,
@@ -68,7 +69,7 @@ const CompanySupport =[
               {
                 id:2,
                 name:"Contact us",
-                path:'#'
+                path:'mailto:info@dyleum.com'
               }
         ]
      }

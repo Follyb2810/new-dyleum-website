@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import { socialIcon,CompanyData,CompanySupport } from '../Data' 
+import file from '../images/file/dyleum-Pitch-deck.pdf'
 
 const Footer = () => {
   return (
@@ -30,7 +31,25 @@ const Footer = () => {
                       <React.Fragment key={index}>
                         <h4 className='text-white fs-16'>{company.Compnany}</h4>
                         {company.name.map((name, index) => (
-                          <h6 key={index} className='fs-14'><a href={name.path} style={{textDecoration:'none',color:'#B7D4FF'}}>{name.name}</a></h6>
+                          <h6 key={index} className="fs-14">
+                          <a
+                            href={name.path}
+                            target={name.path.startsWith('#') ? '' : '_blank'}
+                            download={name.path === file ? true : false}
+                            rel="noreferrer"
+                            style={{ textDecoration: 'none', color: '#B7D4FF' }}
+                            onClick={(e) => {
+                              if (name.path === file) {
+                                if (!window.confirm('Are you sure you want to download this file?')) {
+                                  e.preventDefault();
+                                }
+                              }
+                            }}
+                          >
+                            {name.name}
+                          </a>
+                        </h6>
+                        
                         ))}
                       </React.Fragment>
                     ))}
