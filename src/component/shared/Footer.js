@@ -6,7 +6,7 @@ import file from '../images/file/dyleum-Pitch-deck.pdf'
 
 const Footer = () => {
   return (
-    <footer className='footer'>
+    <footer className='footer pt-5'>
         <section className='container '>
               <div className='row py-4 justify-content-between '>
                 <div className='col-12 col-sm-6 col-md-3 text-start'>

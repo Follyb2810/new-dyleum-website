@@ -19,10 +19,10 @@ const Index = () => {
       <Stats/>
       <Product/>
       <Feature/>
-      <Fags/>
-       <Roads/>
+      <Roads/>
       <About/>
       <Partner/>
+      <Fags/>
     </>
   )
 }

@@ -3,6 +3,8 @@ import {RoadMapData} from '../../Data'
 function Roads() {
   return (
     <div className='container' id='road'>
+    <h2 className='text-center textColor1 fs-14 pt-5 pb-2'>OUR ROADMAP</h2>
+    <h2 className='text-center text-white subtitle'> Dyleum's roadmap to revolutionize cryptocurrency</h2>
       
 
     <div class="timeline">
