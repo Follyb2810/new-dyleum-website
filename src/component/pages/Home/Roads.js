@@ -12,7 +12,7 @@ function Roads() {
 			{
         RoadMapData.map((road,index)=>(
           <li key={index}>
-				<span className='px-4 py-2 fs-20 text-white'>{road.phase}</span>
+				<span className='py-2 fs-20 text-white t'>{road.phase}</span>
 				<div className="content py-3">
 					<React.Fragment>
            {

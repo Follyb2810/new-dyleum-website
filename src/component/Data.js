@@ -106,7 +106,7 @@ const ProductCardData =[
         para:'Exchange and swap crypto easily with an intuitive and easy interface',
         btnTxt:'Discover DEX',
         img: Img.dex,
-        pathToProduct:'https://testnet.dyleum.com/'
+        pathToProduct:'#'
     },
     {
         id:2,
@@ -114,7 +114,7 @@ const ProductCardData =[
         para:'Connecting decentralized P2P Exchange with AI. Fostering seamless and secure transactions',
         btnTxt:'Coming Soon',
         img: Img.p2p,
-        pathToProduct:'https://p2p.dyleum.com/'
+        pathToProduct:'#'
     },
     {
         id:3,
