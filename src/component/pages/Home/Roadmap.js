@@ -24,8 +24,8 @@ const Roadmap = () => {
                        </div>
                      <div className={`${index % 2 ===1 ?'road':'road1'}   ${index === 1 ? 'bgRed' : index === 2 ? 'bgBlue ' : 'bgGreen'} my-2`}></div>
                       <div className='d-flex justify-content-center my-5 '>
-                        <div class={`line ${index === 1 ? 'bgRed' : index === 2 ? 'bgBlue' : 'bgGreen'}`}>
-                        <div class={`${index === 1?'bgRed ':index === 2? ' bgBlue ':'bgGreen '} ${index % 2 === 1?'circle1':'circle'} ` } ></div>
+                        <div className={`line ${index === 1 ? 'bgRed' : index === 2 ? 'bgBlue' : 'bgGreen'}`}>
+                        <div className={`${index === 1?'bgRed ':index === 2? ' bgBlue ':'bgGreen '} ${index % 2 === 1?'circle1':'circle'} ` } ></div>
                             </div>
                         
                       </div>

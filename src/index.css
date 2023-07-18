@@ -141,6 +141,22 @@ letter-spacing: -0.02em;
 text-align: center;
 
 }
+/* !hero */
+.herobg{
+  background-image:url('./component/images/Background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.heroSubtitle{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
 /* ! navbar */
 .logo{
   width:100px;
@@ -201,21 +217,7 @@ width: 24;
 height: 24px;
 
 }
-/* !hero */
-.herobg{
-  background-image:url('./component/images/Background.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.heroSubtitle{
-  font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
 
-}
 /* ! accordion */
 .accordion {
   --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
@@ -515,6 +517,12 @@ text-align: center;
  
 }
 @media (max-width: 768px) {
+  .herobg{
+    background-image:url('./component/images/Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
   .menu{
     height: 100vh;
   }
@@ -672,7 +680,7 @@ font-size: 20px;
 }
 .timeline ul{
 	list-style-type:none;
-	border-left:2px solid var(--textColor);
+	/* border-left:2px solid var(--textColor); */
 	padding:10px 5px;
   display: flex;
   justify-content: space-between;
@@ -680,6 +688,7 @@ font-size: 20px;
 .timeline ul li{
 	padding:20px 20px;
 	position:relative;
+  border-left:2px solid var(--textColor);
 	cursor:pointer;
 	transition:.5s;
 }
@@ -695,7 +704,7 @@ font-size: 20px;
 	height:10px;
 	background-color:#34ace0;
 	border-radius:50%;
-	left:-11px;
+	left:-6px;
 	top:28px;
 	transition:.5s;
 }
@@ -705,6 +714,24 @@ font-size: 20px;
 .timeline ul li:hover:before{
 	background-color:var(--textColor1);
 	box-shadow:0px 0px 10px 2px var(--textColor1);
+}
+
+@media (max-width:768px) {
+  .timeline ul li{
+    border-left:none;
+  }
+  .timeline ul li:before{
+    position:absolute;
+    content:'';
+    width:10px;
+    height:10px;
+    background-color:#34ace0;
+    border-radius:50%;
+    left:-11px;
+    top:28px;
+    transition:.5s;
+  }
+  
 }
 @media (max-width:300px){
 	.timeline{

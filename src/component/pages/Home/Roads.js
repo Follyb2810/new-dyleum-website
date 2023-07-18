@@ -7,13 +7,13 @@ function Roads() {
     <h2 className='text-center text-white subtitle'> Dyleum's roadmap to revolutionize cryptocurrency</h2>
       
 
-    <div class="timeline">
+    <div className="timeline">
 		<ul>
 			{
         RoadMapData.map((road,index)=>(
           <li key={index}>
 				<span className='px-4 py-2 fs-20 text-white'>{road.phase}</span>
-				<div class="content py-3">
+				<div className="content py-3">
 					<React.Fragment>
            {
             road.task.map((task,index)=>(

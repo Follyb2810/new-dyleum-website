@@ -10,7 +10,7 @@ const Feature = () => {
     {
         FeatureData.map((feature,index)=>(
             <div className='col-12 col-md-6 mt-3 mt-md-2 ' key={index}>
-            <div class="card bgCard p-3" style={{height:'180px'}}>
+            <div className="card bgCard p-3" style={{height:'180px'}}>
             <span className='feature_num fw-bold'>{feature.id}</span>
             <span className='py-2 textColor1 fs-5'>{feature.name}</span>
             <p className='py-2'>{feature.para}</p>
