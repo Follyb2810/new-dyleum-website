@@ -1,16 +1,21 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import Layout from './component/shared/Layout'
-import Home from './component/pages/Home/Index'
+import React, { lazy, Suspense } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './component/shared/Layout';
+import Loading from './component/shared/Loading';
 import './index.css';
-const Router = () => {
+
+const Home = lazy(() => import('./component/pages/Home/Index'));
+
+function Router() {
   return (
-    <Routes>
-        <Route path='/' element={<Layout/>}>
-            <Route index element={<Home/>}/>
-        </Route>
-    </Routes>
-  )
+    <Suspense fallback={<Loading />}>
+            <Routes>
+                <Route path='/' element={<Layout />}>
+                    <Route index element={<Home />} />
+                </Route>
+            </Routes>
+        </Suspense>
+  );
 }
 
-export default Router
+export default Router;
