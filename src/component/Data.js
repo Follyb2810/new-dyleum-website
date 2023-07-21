@@ -106,15 +106,15 @@ const ProductCardData =[
         para:'Exchange and swap crypto easily with an intuitive and easy interface',
         btnTxt:'Discover DEX',
         img: Img.dex,
-        pathToProduct:'#'
+        pathToProduct:'https://testnet.dyleum.com/'
     },
     {
         id:2,
         title:'AI P2P Exchange',
         para:'Connecting decentralized P2P Exchange with AI. Fostering seamless and secure transactions',
-        btnTxt:'Coming Soon',
+        btnTxt:'Discover P2P',
         img: Img.p2p,
-        pathToProduct:'#'
+        pathToProduct:'https://p2p.dyleum.com/'
     },
     {
         id:3,
@@ -232,6 +232,11 @@ const PartnerData =[
       id:3,
       img:Img.part3,
       name:'Nautilius Chain'
+    },
+    {
+      id:3,
+      img:Img.part5,
+      name:'Epik Protocol'
     },
     {
       id:3,
