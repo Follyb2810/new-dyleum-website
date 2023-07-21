@@ -8,7 +8,7 @@ const Partner = () => {
          <div className='row justify-content-between pb-5'>
              {
               PartnerData.map((partner,index)=>(
-                <div className='col-6 col-md-2 text-center justify-content-center' key={index}>
+                <div className='col-6 col-md-3 text-center justify-content-center mt-5' key={index}>
                     <img className='img-fluid' alt='' style={{width:'64px'}} src={partner.img}/>
                     <h6 className='fs-18 text-center ' >{partner.name}</h6  >
                 </div>

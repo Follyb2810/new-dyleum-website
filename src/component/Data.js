@@ -234,19 +234,30 @@ const PartnerData =[
       name:'Nautilius Chain'
     },
     {
-      id:3,
+      id:4,
       img:Img.part5,
       name:'Epik Protocol'
     },
     {
-      id:3,
-      img:Img.part4,
-      name:'Galador'
-    },
-    {
-      id:3,
+      id:5,
       img:Img.Shield,
       name:'Shield Protocol'
+    },
+    {
+      id:6,
+      img:Img.part6,
+      name:'Coral Finance'
+    },
+    {
+      id:7,
+      img:Img.part7,
+      name:'Dot Launch'
+    },
+  
+    {
+      id:5,
+      img:Img.part4,
+      name:'Galador'
     },
 ]
 
