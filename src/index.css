@@ -117,6 +117,10 @@ font-weight: 800;
 line-height: 44px;
 letter-spacing: -0.02em;
 }
+a{
+  text-decoration: none;
+  color: #fff;
+}
 /* !btn */
 .btnPrimary{
   font-family: Inter;

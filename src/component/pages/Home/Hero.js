@@ -8,9 +8,10 @@ const Hero = () => {
           <div className='col text-center'>
             <div className='text-center'>
               <h2 className='text-center heroContent text-white pb-1'>AI powered <span className='textColor1'>decentralized</span> exchange</h2>
-              <p className='text-center py-2'>Empowering web3 with AI powered products</p>
-              <button className='btn primaryB btnPrimary mx-auto mt-2 mt-md-4'>Discover product</button>
-            </div>
+              <p className='text-center py-1'>Empowering web3 with AI powered products</p>
+              <button className='btn primaryB btnPrimary mx-auto mt-1 mt-md-2'><a href='#product'>Discover product</a></button>
+              
+              </div>
           </div>
         </div>
       </div>

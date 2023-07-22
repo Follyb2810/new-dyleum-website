@@ -99,10 +99,8 @@ const Header = () => {
             </li>
           </ul>
           <button
-            className="btn primaryB btnPrimary ms-md-auto d-none d-md-block text-nowrap"
-            type="submit"
-          >
-            Discover Product
+            className="btn primaryB btnPrimary ms-md-auto d-none d-md-block text-nowrap">
+               <a href='#product'>Discover product</a>
           </button>
         </div>
       </div>
