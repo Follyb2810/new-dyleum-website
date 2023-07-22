@@ -62,6 +62,11 @@ const Header = () => {
                 </li>
                 <li>
                   <a className="dropdown-item productDropdown" href="#product" onClick={handleToggle}>
+                  LeumPad <span className="coming">(Coming soon)</span>
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item productDropdown" href="#product" onClick={handleToggle}>
                     NFT <span className="coming">(Coming soon)</span>
                   </a>
                 </li>
