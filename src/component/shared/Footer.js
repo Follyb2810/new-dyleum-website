@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import { socialIcon,CompanyData,CompanySupport } from '../Data' 
 import file from '../images/file/dyleum-Pitch-deck.pdf'
 
 const Footer = () => {
+  const [getEmail,setGetEmail]=useState({
+    email:''
+  })
+  const handleEmail = (e) => {
+    e.preventDefault()
+    setGetEmail({
+      ...getEmail,
+      [e.target.name]: e.target.value
+    });
+  };
+  const {email} = getEmail
+  const sendEmail =(e)=>{
+    e.preventDefault()
+    if(email !== '')console.log(email)
+    setGetEmail({
+      ...getEmail,
+      email: ''
+    });
+  }
   return (
     <footer className='footer pt-5'>
         <section className='container '>
@@ -72,10 +91,13 @@ const Footer = () => {
                 <div className='col-12 col-sm-6 col-md-3 fs-14  mt-3 mt-md-0'>
                 <h4 className='text-white fs-16'>Stay-up-to-date</h4>
                 <p>Get the latest news and updates</p>
+                    <form onSubmit={sendEmail}>
                     <div className="input-group mb-3">
-                        <input type="text" className="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                        <button className="btn btn-outline-secondary" type="button" id="button-addon2"><AiOutlineArrowRight/></button>
-                      </div>
+                    <input type="text" className="form-control" name='email'
+                     value={getEmail.email} onChange={handleEmail} placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                    <button className="btn btn-outline-secondary"  type="submit" id="button-addon2"><AiOutlineArrowRight/></button>
+                  </div>
+                    </form>
                 </div>
                 <div className='col-12 mt-3 mt-md-0'>
                 <hr className="border border-white border-2 opacity-50"/>
