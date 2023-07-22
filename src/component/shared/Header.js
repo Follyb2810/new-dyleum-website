@@ -52,12 +52,12 @@ const Header = () => {
               <ul className="dropdown-menu py-3">
                 <li>
                   <a className="dropdown-item productDropdown" href="#product"  onClick={handleToggle}>
-                    Dex <span className="coming">(Coming soon)</span>
+                    Dex
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item productDropdown" href="#product" onClick={handleToggle}>
-                    AI P2P Exchange <span className="coming">(Coming soon)</span>
+                    AI P2P Exchange
                   </a>
                 </li>
                 <li>
