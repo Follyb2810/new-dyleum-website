@@ -11,7 +11,7 @@ const Product = () => {
           {
             ProductCardData.map((product, index) =>(
               <div className='col-12 col-md-6 col-lg-4 p-2' key={index}>
-              <div className="card bgCard p-3">
+              <div className="card product-card bgCard p-3">
               <img src={product.img}  style={{width:'40px'}} alt=""/>
               <div className="card-body p-0">
                   <h5 className="card-title textColor1 fs-6 mt-4"> {product.title}</h5>
