@@ -127,7 +127,7 @@ const ProductCardData =[
     {
         id:4,
         title:'NFTs',
-        para:'Get PFP and Real Estate NFTs to customize your experience, gain priority to perks and rewards, and access to real  estate',
+        para:'Get PFP and IRL Real Estate NFTs to customize your experience, gain priority to perks and rewards, and access to real  estate',
         btnTxt:'Coming Soon',
         img: Img.nft,
         pathToProduct:'#'
