@@ -3,11 +3,12 @@ import {Link} from 'react-router-dom'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import { socialIcon,CompanyData,CompanySupport } from '../Data' 
 import file from '../images/file/dyleum-Pitch-deck.pdf'
-
+import axios from 'axios'
 const Footer = () => {
   const [getEmail,setGetEmail]=useState({
     email:''
   })
+  const [recieveEmail,setRecieveEmail] =useState(null)
   const handleEmail = (e) => {
     e.preventDefault()
     setGetEmail({
@@ -16,9 +17,29 @@ const Footer = () => {
     });
   };
   const {email} = getEmail
-  const sendEmail =(e)=>{
+  const sendEmail =async(e)=>{
     e.preventDefault()
-    if(email !== '')console.log(email)
+    try {
+      const config ={
+        headers:{
+          "Content-type": "application/json"
+        }
+      }
+         const {data} = await axios.post('https://folly-email-n8te.vercel.app/email',{email},config)
+         setGetEmail({
+          ...getEmail,
+          email: ''
+        });
+
+        setRecieveEmail(data.message)
+        setTimeout(() => {
+          setRecieveEmail(null);
+        }, 3000);
+
+    } catch (error) {
+      
+    }
+    console.log(email)
     setGetEmail({
       ...getEmail,
       email: ''
@@ -91,6 +112,10 @@ const Footer = () => {
                 <div className='col-12 col-sm-6 col-md-3 fs-14  mt-3 mt-md-0'>
                 <h4 className='text-white fs-16'>Stay-up-to-date</h4>
                 <p>Get the latest news and updates</p>
+                {recieveEmail && (
+                  <div className="alert alert-success" role="alert">
+                    {recieveEmail}
+                  </div>)}
                     <form onSubmit={sendEmail}>
                     <div className="input-group mb-3">
                     <input type="text" className="form-control" name='email'

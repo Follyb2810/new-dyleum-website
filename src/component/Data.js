@@ -77,23 +77,23 @@ const CompanySupport =[
 
 const StatsData =[
 {
-    name:'Total User',
-    num:"10K+",
+    name:'Total Users',
+    num:"17K+",
     id:1
 },
 {
     name:'TVL',
-    num:"$17,088,688",
+    num:"0",
     id:2
 },
 {
-    name:'Total transers',
-    num:"662,579",
+    name:'Total Transfers',
+    num:"0",
     id:3
 },
 {
     name:'Blockchain',
-    num:"2",
+    num:"1",
     id:4
 },
 
@@ -127,7 +127,7 @@ const ProductCardData =[
     {
         id:4,
         title:'NFTs',
-        para:'Get PFP and Real Estate NFTs to customize your experience, gain priority to perks and rewards, and access to real life estate',
+        para:'Get PFP and Real Estate NFTs to customize your experience, gain priority to perks and rewards, and access to real  estate',
         btnTxt:'Coming Soon',
         img: Img.nft,
         pathToProduct:'#'
