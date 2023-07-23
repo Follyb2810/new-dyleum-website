@@ -37,6 +37,10 @@ const Footer = () => {
         }, 3000);
 
     } catch (error) {
+      setRecieveEmail(error.message)
+        setTimeout(() => {
+          setRecieveEmail(null);
+        }, 3000);
       
     }
     console.log(email)
