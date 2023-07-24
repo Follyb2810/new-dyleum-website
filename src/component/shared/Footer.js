@@ -25,7 +25,7 @@ const Footer = () => {
           "Content-type": "application/json"
         }
       }
-         const {data} = await axios.post('https://folly-email-n8te.vercel.app/email',{email},config)
+         const {data} = await axios.post('https://leum.dyleum.com/email',{email},config)
          setGetEmail({
           ...getEmail,
           email: ''
