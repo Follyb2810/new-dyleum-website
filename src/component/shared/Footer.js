@@ -31,7 +31,7 @@ const Footer = () => {
           email: ''
         });
 
-        setRecieveEmail(data.message)
+        setRecieveEmail('Thank you for subscribing')
         setTimeout(() => {
           setRecieveEmail(null);
         }, 3000);
