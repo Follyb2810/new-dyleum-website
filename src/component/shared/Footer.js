@@ -37,7 +37,7 @@ const Footer = () => {
         }, 3000);
 
     } catch (error) {
-      setRecieveEmail(error.message)
+      setRecieveEmail('You Insert Wrong Email Address')
         setTimeout(() => {
           setRecieveEmail(null);
         }, 3000);
